@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Button1 from "./conponent/Button/Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="flex items-center justify-center h-screen">
+        <h1 className="text-4xl font-bold text-blue-500">
+          Hello, Tailwind CSS!
+        </h1>
+      </div>
+      <div>
+        <Button1 />
+      </div>
     </div>
   );
 }
